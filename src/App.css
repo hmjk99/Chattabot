@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .logo {
   width: 8rem;
@@ -85,6 +85,7 @@
   margin-left: 0.7rem;
   border-radius: 15px;
   font-weight: 600;
+  color:black
 }
 .call {
   background-color: rgb(255, 115, 0);
