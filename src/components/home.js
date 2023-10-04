@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import Logo from '../img/logo.png'
 import MainImg from '../img/mainImg.webp'
 import Dinner from "../img/dinner.png"
 import HappyHour from "../img/happyHour.webp"
@@ -44,7 +43,6 @@ const datas = [
 const Home = () => {
   return (
     <div className='container'>
-      <img className='logo' src={Logo} alt='logo'/>
       <img className='main-img' src={MainImg} alt='restaurant'/>
       <div className='main-header'>
         <p className='main-text'>Baby Shank</p>

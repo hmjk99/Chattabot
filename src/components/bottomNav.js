@@ -1,4 +1,4 @@
-import React from 'react'
+import { ArrowLeftIcon } from '@heroicons/react/24/solid'
 
 const bottomNav = ({ backButton }) => {
   const handleBackClick = () => {
@@ -8,7 +8,7 @@ const bottomNav = ({ backButton }) => {
   return (
     <div className='bottom-nav'>
       {backButton ? 
-        <button className='back' onClick={handleBackClick} >Back</button> :
+        <ArrowLeftIcon className='back' onClick={handleBackClick} /> :
       null }
         <button className='reserve'>Reserve</button>
         <button className='call'>Call</button>
@@ -17,3 +17,4 @@ const bottomNav = ({ backButton }) => {
 }
 
 export default bottomNav
+
