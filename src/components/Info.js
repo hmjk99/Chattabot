@@ -14,18 +14,18 @@ const Info = () => {
             <img className='main-img' src={MainImg} alt='restaurant'/>
             <p className='second-main-text'>Hours of Operation</p>
             <div className='second-list-content'>
-                <h2>Happy Hour</h2>
+                <h2 className="menu-name" >Happy Hour</h2>
                 <p className='info-text'>Wednesday - Thursday - Friday</p>
                 <p className='info-text'>4:30pm - 6:30pm</p>
             </div>
             <div className='second-list-content'>
-                <h2>Brunch & Day Party</h2>
+                <h2 className="menu-name">Brunch & Day Party</h2>
                 <p className='info-text'>Sundays 12 noon - 7pm</p>
                 <p className='info-text'>$25 Unlimited Mimosas</p>
                 <p className='info-text'>$200 Bottle Service Special</p>
             </div>
             <div className='second-list-content'>
-                <h2>Dinner</h2>
+                <h2 className="menu-name">Dinner</h2>
                 <p className='info-text'>Wednesday - Saturday</p>
                 <p className='info-text'>4:30pm - 1am</p>
             </div>
