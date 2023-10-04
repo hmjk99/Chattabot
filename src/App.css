@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  width: 8rem;
+  margin-top: 1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-img{
+  width: 100%;
+  height: 13rem;
+  object-fit: cover;
+  margin-top: 1rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-header{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 1rem;
+  width: 14rem;
+  position: absolute;
+  top: 11rem;
+}
+.main-text{
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 0;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.sub-text{
+  text-align: center;
+  color: white;
 }
+.grid-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.grid-item{
+  margin: 0.5rem;
+  position: relative;
+}
+.data-img{
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.grid-img-name {
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 1rem 1.7rem;
+  background-color: rgba(31, 31, 31, 0.365);
+}
+.bottom-nav{
+  width: 100%;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(46, 45, 45);
+  position: fixed;
+  bottom: 0;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.reserve, .call {
+  margin: 0.7rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 15px;
+  font-weight: 600;
+}
+.call {
+  background-color: rgb(255, 115, 0);
+}
+.second-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.second-main-text{
+  position: absolute;
+  top: 10rem;
+  color: white;
+  font-size: 2.7rem;
+  font-weight: 700;
+  width: 13rem;
+  text-align: center;
+  margin: 0
+}
+.second-list-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #88878e; /* Add a bottom border for the divider */
+  padding-bottom: 20px; /* Adjust as needed to control the spacing between items */
+  margin-bottom: 20px; 
+}
+.info-text{
+  margin: 0 0 0.7rem 0;
+  font-size: 1.1rem;
 }
